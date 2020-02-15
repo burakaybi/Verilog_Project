@@ -1,0 +1,47 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : schmu.vf
+// /___/   /\     Timestamp : 10/03/2019 18:27:10
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/.Xilinx/Projects/example/schmu.vf -w C:/.Xilinx/Projects/example/schmu.sch
+//Design Name: schmu
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module schmu(x, 
+             y, 
+             XLXN_9);
+
+    input x;
+    input y;
+   output XLXN_9;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   
+   NAND2  XLXI_1 (.I0(y), 
+                 .I1(x), 
+                 .O(XLXN_1));
+   NAND2  XLXI_3 (.I0(XLXN_1), 
+                 .I1(x), 
+                 .O(XLXN_2));
+   NAND2  XLXI_4 (.I0(y), 
+                 .I1(XLXN_1), 
+                 .O(XLXN_3));
+   NAND2  XLXI_5 (.I0(XLXN_3), 
+                 .I1(XLXN_2), 
+                 .O(XLXN_9));
+endmodule

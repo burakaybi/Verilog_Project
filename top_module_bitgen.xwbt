@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Ahmed\Desktop\example\top_module.ncd
+OUTFILE=C:\Users\Ahmed\Desktop\example\top_module.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4tq144
+WORKINGDIR=C:\Users\Ahmed\Desktop\example
+LICENSE=WebPack
+USER_INFO=211815188_0_0_071

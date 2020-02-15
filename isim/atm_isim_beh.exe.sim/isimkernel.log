@@ -1,0 +1,29 @@
+Command line:
+   atm_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  4845
+
+Fri Dec 20 14:53:55 2019
+
+
+ Elaboration Time: 0.1875 sec
+
+ Current Memory Usage: 5815.6 Meg
+
+ Total Signals          : 19
+ Total Nets             : 58
+ Total Signal Drivers   : 10
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 17
+ Total Traceable Variables  : 53
+ Total Scalar Nets and Variables : 418
+Total Line Count : 136
+
+ Total Simulation Time: 0.421875 sec
+
+ Current Memory Usage: 5186.41 Meg
+
+Fri Dec 20 14:56:20 2019
+

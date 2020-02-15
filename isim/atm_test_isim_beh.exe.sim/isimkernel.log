@@ -1,0 +1,10 @@
+Command line:
+   atm_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  35621
+
+Sun Dec 22 13:48:09 2019
+
+
+ Elaboration Time: 0.140625 sec
